@@ -22,7 +22,7 @@ function increaseRankBy(n) {
     var sibling = rankedLists
     for (var p = 0; p < rankedLists[i].childElementCount; p++) {
       // we want it to access the child and increase by one
-      rankedLists[i].children[p].innerHTML = parseInt(rankedLists[i].children[p].innerHTML) + 1
+      rankedLists[i].children[p].innerHTML = parseInt(rankedLists[i].children[p].innerHTML) + n
     }
     i++
   }
