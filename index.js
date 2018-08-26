@@ -33,7 +33,7 @@ function deepestChild() {
   // grab div#grand-node
   var node = document.querySelector("div#grand-node");
   // while there is a child node
-  while (node.hasChildNotes()) {
+  while (node.hasChildNodes()) {
     node = node.firstElementChild;
   }
   return node
